@@ -1,0 +1,51 @@
+PS G:\Javascript\CodersGyan\StackOverFlowBackend> npm init -y
+Wrote to G:\Javascript\CodersGyan\StackOverFlowBackend\package.json:
+
+{
+  "name": "stackoverflowbackend",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+
+
+PS G:\Javascript\CodersGyan\StackOverFlowBackend> npm install express
+
+added 58 packages, and audited 59 packages in 2s
+
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\Javascript\CodersGyan\StackOverFlowBackend> npm  run start
+
+> stackoverflowbackend@1.0.0 start
+> nodemon server.js
+'nodemon' is not recognized as an internal or external command,
+operable program or batch file.
+PS G:\Javascript\CodersGyan\StackOverFlowBackend> npm install nodemon
+
+added 33 packages, and audited 92 packages in 3s
+
+11 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+PS G:\Javascript\CodersGyan\StackOverFlowBackend> npm run start
+
+> stackoverflowbackend@1.0.0 start
+> nodemon server.js
+
+[nodemon] 3.0.1
+[nodemon] to restart at any time, enter `rs`
+[nodemon] watching path(s): *.*
+[nodemon] watching extensions: js,mjs,cjs,json
+[nodemon] starting `node server.js`
+server listening on port 4000
+[nodemon] restarting due to changes...
+[nodemon] starting `node server.js`
+server listening on port 4000
